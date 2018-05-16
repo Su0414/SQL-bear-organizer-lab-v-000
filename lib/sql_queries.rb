@@ -22,7 +22,7 @@ def selects_oldest_bear_and_returns_name_and_age
 end
 
 def select_youngest_bear_and_returns_name_and_age
-  "Write your SQL query here"
+
   "select name, age from bears order by age asc limit 1"
 
 end
