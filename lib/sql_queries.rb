@@ -11,7 +11,7 @@ end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
 
-  "select name, age from bears order by age asc, alive='1'"
+  "select name, age from bears where alive='1' AND order by age asc"
 
 end
 
@@ -33,7 +33,7 @@ def selects_most_prominent_color_and_returns_with_count
 end
 
 def counts_number_of_bears_with_goofy_temperaments
-  
+
   "select count(*) from bears where temperament = 'goofy'"
 end
 
