@@ -38,6 +38,6 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  
+
   "select * from bears where name = 'NULL'"
 end
