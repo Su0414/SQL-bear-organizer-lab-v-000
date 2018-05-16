@@ -39,5 +39,5 @@ end
 
 def selects_bear_that_killed_Tim
 
-  "select * from bears where name = 'NULL'"
+  "select * from bears where name IS NULL"
 end
